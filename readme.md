@@ -73,7 +73,7 @@ options: {
 ```
 
 ####Demo
-See a demo of the slideshow in action [here](theonlylars.com/components/LARSSlideShow).
+See a demo of the slideshow in action [here](http://theonlylars.com/components/LARSSlideShow).
 
 ###License
 I would love attribution and a link to this page on GitHub [here](http://github.com/larsacus/LARSSlideShow), but it is not required.
