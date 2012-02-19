@@ -49,7 +49,7 @@ options: {
 	window.addEvent('domready', function() {
     var newSlideshow = new LARSlideShow();
     window.addEvent('resize', newSlideshow.adjustBodyHeight);
-    window.addEvent('domready', newSlideshow.fadeInBanner);
+    
     if(Browser.Engine.trident)
       window.addEvent('domready', newSlideshow.adjustBodyHeight);
     else
@@ -76,7 +76,7 @@ options: {
 See a demo of the slideshow in action [here](http://theonlylars.com/components/LARSSlideShow).
 
 ###License
-I would love attribution and a link to this page on GitHub [here](http://github.com/larsacus/LARSSlideShow), but it is not required.
+I would love attribution and a link to this page on GitHub [here](https://github.com/larsacus/LARSSlideShow), but it is not required.
 
 Copyright (c) 2008-2012 Lars Anderson, drink&apple
 
