@@ -1,16 +1,16 @@
-##LARSSlideShow 1.0
+## LARSSlideShow 1.0
 
-###Description
+### Description
 I created this slideshow plugin a looong time ago while unemployed and just out of school.  It's been sitting unused on an old webserver until now. It was inspired by a photography site's flash photo slideshow.  I wanted that same look on my site, but didn't care much for flash.  This will run on any browser that supports javascript, which includes all iDevices and droids.
 
 This is meant to take up an entire page, save for the header and footers.
 
 This could easily be adapted to use jQuery and very much needs some adapting to newer versions of MooTools.
 
-###Requirements
+### Requirements
 - MooTools with Fx (Included as submodule)
 
-###Installation
+### Installation
 - Download and copy LARSSlideShow.js to wherever it is you put scripts
 - Include script in `<head>` - `<script rel="text/javascript" src="scripts/LARSSlideShow.js"></script>`
 - Create a container with an id of `body_wrapper` that contains elements with IDs `footer`, `header`
@@ -58,7 +58,7 @@ options: {
 </script>
 ```
 
-####Basic Page Structure
+#### Basic Page Structure
 
 ```html
 <div id="header">
@@ -72,16 +72,15 @@ options: {
 </div>
 ```
 
-####Demo
-See a demo of the slideshow in action [here](http://theonlylars.com/components/LARSSlideShow).
-
-###License
+### License
 I would love attribution and a link to this page on GitHub [here](https://github.com/larsacus/LARSSlideShow), but it is not required.
 
-Copyright (c) 2008-2012 Lars Anderson, drink&apple
+```
+Copyright (c) 2008-2017 Lars Anderson, drink&apple
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
